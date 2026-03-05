@@ -1,73 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Board</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>ICPC Live Scoreboard</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
-    <h1 id = "counter">
-        0
-    </h1>
-
-    <i class="fa-brands fa-accessible-icon"></i>
-    
-    <div id = "contenedor">
-        <table id = "board">
-            <tr id  = "fila-informacion">
-                <td> Nombre </td>
-                <td> Tiempo </td>
-                <td> Resueltos </td>
-                <td> A </td>
-                <td> B </td>
-                <td> C </td>
-                <td> D </td>
-                <td> E </td>
-                <td> F </td>
-            </tr>
-            
-            <tr class  = "fila">
-                <td> SantiaxD </td>
-                <td> 100 </td>
-                <td> 1 </td>
-                <td> S </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-            </tr>x
-
-            <tr class  = "fila">
-                <td> SantiaxD </td>
-                <td> 100 </td>
-                <td> 1 </td>
-                <td> S </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-            </tr>
-
-            <tr class  = "fila">
-                <td> SantiaxD </td>
-                <td> 100 </td>
-                <td> 1 </td>
-                <td> S </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-                <td> N </td>
-            </tr>
-            
+    <div class="container">
+        <header>
+            <h1>ICPC Contest Scoreboard</h1>
+            <div id="contest-status">Live Ranking</div>
+        </header>
+        
+        <table id="scoreboard">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team Name</th>
+                    <th>Solved</th>
+                    <th>Time</th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                </tr>
+            </thead>
+            <tbody id="team-rows">
+                </tbody>
         </table>
-    
     </div>
     <script src="./js/script.js"></script>
-
 </body>
 </html>

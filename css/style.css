@@ -1,0 +1,119 @@
+:root {
+    --bg-color: #0d1117;
+    --card-bg: #161b22;
+    --text-color: #c9d1d9;
+    --accepted: #238636;
+    --wrong: #da3633;
+    --pending: #d29922;
+    --highlight: #58a6ff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    position: relative;
+    /* Necesario para el reordenamiento visual */
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    color: #8b949e;
+}
+
+tr {
+    background-color: var(--card-bg);
+    transition: transform 0.6s ease-in-out, background-color 0.3s;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid #30363d;
+    border-bottom: 1px solid #30363d;
+}
+
+/* Estados de Problemas */
+.cell-ok {
+    background-color: var(--accepted) !important;
+    color: white;
+}
+
+.cell-wa {
+    background-color: var(--wrong) !important;
+    color: white;
+}
+
+.cell-testing {
+    background-color: var(--pending) !important;
+    color: black;
+    animation: pulse 1s infinite;
+}
+
+/* Animaciones */
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flash-success {
+    animation: flash 1s;
+}
+
+@keyframes flash {
+    0% {
+        background-color: var(--highlight);
+    }
+
+    100% {
+        background-color: var(--card-bg);
+    }
+}
+
+.rank-up {
+    color: #3fb950;
+    font-weight: bold;
+}
+
+/* Clase que se aplica a la fila que acaba de subir */
+.row-moving {
+    z-index: 10;
+    box-shadow: 0 0 15px var(--highlight);
+    border: 1px solid var(--highlight);
+}
+
+/* Suavidad para el movimiento */
+tr {
+    transition: transform 0.6s cubic-bezier(0.2, 1, 0.3, 1), background-color 0.4s;
+}
+
+/* Flash de resolución (más intenso) */
+@keyframes flash-green {
+    0% { background-color: var(--accepted); transform: scale(1.02); }
+    100% { background-color: var(--card-bg); transform: scale(1); }
+}
+
+.flash-success {
+    animation: flash-green 0.8s ease;
+}
