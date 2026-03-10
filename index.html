@@ -2,35 +2,51 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ICPC Live Scoreboard</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>ICPC Contest Scoreboard</h1>
-            <div id="contest-status">Live Ranking</div>
-        </header>
-        
-        <table id="scoreboard">
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th>Team Name</th>
-                    <th>Solved</th>
-                    <th>Time</th>
-                    <th>A</th>
-                    <th>B</th>
-                    <th>C</th>
-                    <th>D</th>
-                    <th>E</th>
-                    <th>F</th>
-                </tr>
-            </thead>
-            <tbody id="team-rows">
-                </tbody>
-        </table>
+    <div id="countdown-overlay" style="display: none;">
+        <h2>El concurso inicia en</h2>
+        <div id="countdown-timer">00:00:00</div>
     </div>
+
+    <div class="layout" id="main-layout">
+        <aside class="sidebar">
+            <h2>Live Submissions</h2>
+            <div id="submissions-log" class="log-container"></div>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <div>
+                    <h1>ICPC Contest Scoreboard</h1>
+                    <div id="contest-status">ESPERANDO INICIO...</div>
+                </div>
+                <button id="sound-toggle-btn" class="sound-off">🔇 Sonido Apagado</button>
+            </header>
+
+            <div class="scoreboard-wrapper">
+                <div class="table-header">
+                    <div class="col rank">#</div>
+                    <div class="col team">Team Name</div>
+                    <div class="col solved">Solved</div>
+                    <div class="col penalty">Time</div>
+                    <div class="col prob">A</div>
+                    <div class="col prob">B</div>
+                    <div class="col prob">C</div>
+                    <div class="col prob">D</div>
+                    <div class="col prob">E</div>
+                    <div class="col prob">F</div>
+                    <div class="col prob">G</div>
+                </div>
+                <div id="team-rows-container">
+                    </div>
+            </div>
+        </main>
+    </div>
+
     <script src="./js/script.js"></script>
 </body>
 </html>

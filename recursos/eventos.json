@@ -1,0 +1,226 @@
+[
+    {
+        "id": 365233828,
+        "time": 1,
+        "team": "J.Alvarez",
+        "problem": "D",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 365386276,
+        "time": 1,
+        "team": "VF.Agudelo",
+        "problem": "A",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 365389268,
+        "time": 1,
+        "team": "VF.Agudelo",
+        "problem": "D",
+        "result": "OK"
+    },
+    {
+        "id": 365404393,
+        "time": 1,
+        "team": "VF.Agudelo",
+        "problem": "E",
+        "result": "OK"
+    },
+    {
+        "id": 365487057,
+        "time": 1,
+        "team": "Joel.Obando",
+        "problem": "C",
+        "result": "OK"
+    },
+    {
+        "id": 365781634,
+        "time": 1,
+        "team": "J.llanos",
+        "problem": "E",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 365220029,
+        "time": 72110,
+        "team": "D.Zuluaga",
+        "problem": "A",
+        "result": "OK"
+    },
+    {
+        "id": 365386609,
+        "time": 1,
+        "team": "VF.Agudelo",
+        "problem": "A",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 365387853,
+        "time": 1,
+        "team": "VF.Agudelo",
+        "problem": "A",
+        "result": "OK"
+    },
+    {
+        "id": 365405022,
+        "time": 198993,
+        "team": "VF.Agudelo",
+        "problem": "F",
+        "result": "OK"
+    },
+    {
+        "id": 365405348,
+        "time": 199475,
+        "team": "VF.Agudelo",
+        "problem": "G",
+        "result": "OK"
+    },
+    {
+        "id": 365405882,
+        "time": 200335,
+        "team": "VF.Agudelo",
+        "problem": "C",
+        "result": "OK"
+    },
+    {
+        "id": 365406468,
+        "time": 201223,
+        "team": "VF.Agudelo",
+        "problem": "B",
+        "result": "OK"
+    },
+    {
+        "id": 365491052,
+        "time": 256020,
+        "team": "Joel.Obando",
+        "problem": "D",
+        "result": "OK"
+    },
+    {
+        "id": 365494260,
+        "time": 257623,
+        "team": "Joel.Obando",
+        "problem": "E",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 365494957,
+        "time": 257980,
+        "team": "Joel.Obando",
+        "problem": "E",
+        "result": "OK"
+    },
+    {
+        "id": 365780182,
+        "time": 1,
+        "team": "J.llanos",
+        "problem": "A",
+        "result": "OK"
+    },
+    {
+        "id": 365781001,
+        "time": 450460,
+        "team": "J.llanos",
+        "problem": "C",
+        "result": "OK"
+    },
+    {
+        "id": 365781852,
+        "time": 451289,
+        "team": "J.llanos",
+        "problem": "E",
+        "result": "OK"
+    },
+    {
+        "id": 365782268,
+        "time": 451724,
+        "team": "J.llanos",
+        "problem": "D",
+        "result": "OK"
+    },
+    {
+        "id": 365783323,
+        "time": 1,
+        "team": "J.llanos",
+        "problem": "B",
+        "result": "OK"
+    },
+    {
+        "id": 365784344,
+        "time": 453982,
+        "team": "J.llanos",
+        "problem": "G",
+        "result": "OK"
+    },
+    {
+        "id": 366054781,
+        "time": 2147483647,
+        "team": "B_jojoa67",
+        "problem": "A",
+        "result": "OK"
+    },
+    {
+        "id": 366054697,
+        "time": 2147483647,
+        "team": "B_jojoa67",
+        "problem": "A",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 366054607,
+        "time": 2147483647,
+        "team": "B_jojoa67",
+        "problem": "A",
+        "result": "WRONG_ANSWER"
+    },
+    {
+        "id": 366056801,
+        "time": 2147483647,
+        "team": "didier232",
+        "problem": "C",
+        "result": "OK"
+    },
+    {
+        "id": 366056767,
+        "time": 2147483647,
+        "team": "didier232",
+        "problem": "C",
+        "result": "RUNTIME_ERROR"
+    },
+    {
+        "id": 366056665,
+        "time": 2147483647,
+        "team": "didier232",
+        "problem": "B",
+        "result": "OK"
+    },
+    {
+        "id": 366056442,
+        "time": 1,
+        "team": "didier232",
+        "problem": "A",
+        "result": "OK"
+    },
+    {
+        "id": 366056920,
+        "time": 1,
+        "team": "B_jojoa67",
+        "problem": "F",
+        "result": "RUNTIME_ERROR"
+    },
+    {
+        "id": 366056993,
+        "time": 2147483647,
+        "team": "B_jojoa67",
+        "problem": "F",
+        "result": "RUNTIME_ERROR"
+    },
+    {
+        "id": 366057171,
+        "time": 2147483647,
+        "team": "B_jojoa67",
+        "problem": "F",
+        "result": "TESTING"
+    }
+]

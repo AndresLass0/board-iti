@@ -1,0 +1,98 @@
+{
+    "status": "LIVE",
+    "elapsed": 201,
+    "data": [
+        {
+            "team": "VF.Agudelo",
+            "solved": 3,
+            "penalty": 3,
+            "problems": {
+                "A": {
+                    "wa": 2,
+                    "solved": true,
+                    "time": 1
+                },
+                "D": {
+                    "wa": 0,
+                    "solved": true,
+                    "time": 1
+                },
+                "E": {
+                    "wa": 0,
+                    "solved": true,
+                    "time": 1
+                }
+            }
+        },
+        {
+            "team": "J.llanos",
+            "solved": 2,
+            "penalty": 2,
+            "problems": {
+                "E": {
+                    "wa": 1,
+                    "solved": false,
+                    "time": null
+                },
+                "A": {
+                    "wa": 0,
+                    "solved": true,
+                    "time": 1
+                },
+                "B": {
+                    "wa": 0,
+                    "solved": true,
+                    "time": 1
+                }
+            }
+        },
+        {
+            "team": "Joel.Obando",
+            "solved": 1,
+            "penalty": 1,
+            "problems": {
+                "C": {
+                    "wa": 0,
+                    "solved": true,
+                    "time": 1
+                }
+            }
+        },
+        {
+            "team": "didier232",
+            "solved": 1,
+            "penalty": 1,
+            "problems": {
+                "A": {
+                    "wa": 0,
+                    "solved": true,
+                    "time": 1
+                }
+            }
+        },
+        {
+            "team": "J.Alvarez",
+            "solved": 0,
+            "penalty": 0,
+            "problems": {
+                "D": {
+                    "wa": 1,
+                    "solved": false,
+                    "time": null
+                }
+            }
+        },
+        {
+            "team": "B_jojoa67",
+            "solved": 0,
+            "penalty": 0,
+            "problems": {
+                "F": {
+                    "wa": 1,
+                    "solved": false,
+                    "time": null
+                }
+            }
+        }
+    ]
+}
